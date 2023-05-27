@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3132F0152A21F82C009FFA76 /* UIApplication+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132F0142A21F82C009FFA76 /* UIApplication+Extended.swift */; };
 		319E212E2A21C3710010BEFD /* SwiftUI_Combine_TMDB_API_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E212D2A21C3710010BEFD /* SwiftUI_Combine_TMDB_API_ExampleApp.swift */; };
 		319E21302A21C3710010BEFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E212F2A21C3710010BEFD /* ContentView.swift */; };
 		319E21322A21C3720010BEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319E21312A21C3720010BEFD /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3132F0142A21F82C009FFA76 /* UIApplication+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extended.swift"; sourceTree = "<group>"; };
 		319E212A2A21C3710010BEFD /* SwiftUI_Combine_TMDB_API_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Combine_TMDB_API_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319E212D2A21C3710010BEFD /* SwiftUI_Combine_TMDB_API_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Combine_TMDB_API_ExampleApp.swift; sourceTree = "<group>"; };
 		319E212F2A21C3710010BEFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3132F0132A21F81C009FFA76 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3132F0142A21F82C009FFA76 /* UIApplication+Extended.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		319E21212A21C3710010BEFD = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		319E212C2A21C3710010BEFD /* SwiftUI_Combine_TMDB_API_Example */ = {
 			isa = PBXGroup;
 			children = (
+				3132F0132A21F81C009FFA76 /* Extension */,
 				319E21412A21C8640010BEFD /* Util */,
 				319E213E2A21C80B0010BEFD /* ViewModel */,
 				319E213B2A21C6D10010BEFD /* Model */,
@@ -191,6 +202,7 @@
 				319E21302A21C3710010BEFD /* ContentView.swift in Sources */,
 				319E21402A21C8220010BEFD /* ViewModel.swift in Sources */,
 				319E21432A21C8740010BEFD /* APIClient.swift in Sources */,
+				3132F0152A21F82C009FFA76 /* UIApplication+Extended.swift in Sources */,
 				319E212E2A21C3710010BEFD /* SwiftUI_Combine_TMDB_API_ExampleApp.swift in Sources */,
 				319E21462A21CD210010BEFD /* SearchUserBarView.swift in Sources */,
 				319E21482A21E4E70010BEFD /* SearchMovieRowView.swift in Sources */,

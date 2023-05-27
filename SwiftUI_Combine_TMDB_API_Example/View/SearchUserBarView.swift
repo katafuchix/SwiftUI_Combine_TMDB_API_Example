@@ -21,7 +21,10 @@ struct SearchUserBarView: View {
                     .cornerRadius(8)
                 
                 Button(
-                        action: { viewModel.searchTrigger.send(())},
+                        action: {
+                            viewModel.searchTrigger.send(())
+                            UIApplication.shared.endEditing()
+                        },
                         label: { Text("Search") }
                     )
                     .disabled(!viewModel.isSearchButtonEnabled)
