@@ -16,13 +16,13 @@ struct ErrorView: View {
                 Text(error.localizedDescription)
                     .bold()
                     .multilineTextAlignment(.center)
-                    .frame(maxWidth: .infinity)
+                    .frame(maxWidth: .infinity, maxHeight: 40)
                     .padding(8)
                     .foregroundColor(.white)
                     .background(Color.red
                         .edgesIgnoringSafeArea(.top))
                     .animation(.easeInOut, value: 0.25)
-                Spacer()
+                //Spacer()
             }else {
                 EmptyView()
             }

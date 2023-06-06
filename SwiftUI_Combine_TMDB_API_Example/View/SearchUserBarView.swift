@@ -14,7 +14,7 @@ struct SearchUserBarView: View {
         ZStack {
             Color.gray.opacity(0.5)
             HStack {
-                TextField("Search User",
+                TextField("Search Movie",
                             text: $viewModel.searchWord,
                             onCommit: { // リターンキーのイベントの処理
                                 viewModel.searchTrigger.send(())

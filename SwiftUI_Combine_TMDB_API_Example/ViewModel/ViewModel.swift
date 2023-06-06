@@ -47,6 +47,7 @@ class ViewModel: ObservableObject {
         self.searchTrigger
             .sink { [weak self] _ in
                 guard let searchText = self?.searchWord else { return }
+                self?.error = nil
                 self?.searchSubject.send(searchText)
             }
             .store(in: &cancellables)
